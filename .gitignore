@@ -1,0 +1,4 @@
+/public
+.obsidian/
+*.lock
+.DS_Store
