@@ -29,4 +29,5 @@ jobs:
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          external_repository: <rave1/rave1.github.io>
           publish_dir: ./public
